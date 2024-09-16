@@ -69,6 +69,21 @@ namespace ConsoleApp.Definicion
         //Metodos
         
     }
+    public class Notas
+    {
+        // Atributos 
+        private int id = 0;
+        private string descripcion = "";
+        private Libros? libro = null;
+
+        //Propiedades
+        public int Id { get => this.id; set => this.id = value; }
+        public string Descripcion { get => this.numero; set => this.numero = value; }
+        public Prestamos? Prestamo { get => this.prestamo; set => this.prestamo = value; }
+
+        //Metodos
+        
+    }
     public class Libros
     {
         // Atributos 
