@@ -23,6 +23,7 @@ namespace mst_pruebas.Repositorios
         {
             Guardar();
             Listar();
+            Buscar();
             Modificar();
             Borrar();
         }
@@ -31,14 +32,7 @@ namespace mst_pruebas.Repositorios
         {
             entidad = new Estados()
             {
-                Persona = "Test",
-                Nota1 = 1.2m,
-                Nota2 = 2.4m,
-                Nota3 = 3.9m,
-                Nota4 = 4.8m,
-                Nota5 = 5,
-                Final = 0.0m,
-                Fecha = DateTime.Now
+                Nombre = "TestNombre",
             };
             entidad = iRepositorio!.Guardar(entidad);
             Assert.IsTrue(entidad.Id != 0);
@@ -50,17 +44,25 @@ namespace mst_pruebas.Repositorios
             Assert.IsTrue(lista.Count > 0);
         }
 
+        public void Buscar()
+        {
+            var lista = iRepositorio!.Buscar(x => x.Id == entidad!.Id);
+            Assert.IsTrue(lista.Count > 0);
+        }
+
         private void Modificar()
         {
-            entidad!.Final = 3.0m;
+            entidad!.Nombre = "CambioTest";
             entidad = iRepositorio!.Modificar(entidad!);
-            Assert.IsTrue(entidad!.Final == 3.0m);
+            Assert.IsTrue(entidad!.Nombre == "CambioTest");
         }
 
         private void Borrar()
         {
             entidad = iRepositorio!.Borrar(entidad!);
-            Assert.IsTrue(entidad.Id != 0);
+
+            var lista = iRepositorio!.Buscar(x => x.Id == entidad!.Id);
+            Assert.IsTrue(lista.Count == 0);
         }
     }
 }

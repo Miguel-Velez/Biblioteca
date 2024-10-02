@@ -9,5 +9,10 @@
   <ItemGroup>
     <ProjectReference Include="..\lib_entidades\lib_entidades.csproj" />
   </ItemGroup>
+	
+  <ItemGroup>
+    <ProjectReference Include="..\lib_entidades\lib_entidades.csproj" />
+  </ItemGroup>
+
 
 </Project>

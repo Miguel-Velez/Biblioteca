@@ -15,7 +15,13 @@ namespace lib_repositorios
             optionsBuilder.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
         }
 
+        protected DbSet<Detalles>? Detalles { get; set; }
+        protected DbSet<Estados>? Estados { get; set; }
+        protected DbSet<Libros>? Libros { get; set; }
+        protected DbSet<Notas>? Notas { get; set; }
         protected DbSet<Personas>? Personas { get; set; }
+        protected DbSet<Prestamos>? Prestamos { get; set; }
+        protected DbSet<Usuarios>? Usuarios { get; set; }
 
         public virtual DbSet<T> ObtenerSet<T>() where T : class, new()
         {

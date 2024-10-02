@@ -1,5 +1,6 @@
 ﻿using lib_entidades;
 using lib_repositorios.Interfaces;
+using System.Linq.Expressions;
 
 namespace lib_repositorios.Implementaciones
 {
@@ -15,6 +16,11 @@ namespace lib_repositorios.Implementaciones
         public List<Personas> Listar()
         {
             return conexion!.Listar<Personas>();
+        }
+
+        public List<Personas> Buscar(Expression<Func<Personas, bool>> condiciones)
+        {
+            return conexion!.Buscar(condiciones);
         }
 
         public Personas Guardar(Personas entidad)

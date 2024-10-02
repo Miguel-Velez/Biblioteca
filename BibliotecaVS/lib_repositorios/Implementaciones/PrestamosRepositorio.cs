@@ -1,5 +1,6 @@
 ﻿using lib_entidades;
 using lib_repositorios.Interfaces;
+using System.Linq.Expressions;
 
 namespace lib_repositorios.Implementaciones
 {
@@ -15,6 +16,11 @@ namespace lib_repositorios.Implementaciones
         public List<Prestamos> Listar()
         {
             return conexion!.Listar<Prestamos>();
+        }
+
+        public List<Prestamos> Buscar(Expression<Func<Prestamos, bool>> condiciones)
+        {
+            return conexion!.Buscar(condiciones);
         }
 
         public Prestamos Guardar(Prestamos entidad)
@@ -36,6 +42,11 @@ namespace lib_repositorios.Implementaciones
             conexion!.Borrar(entidad);
             conexion!.GuardarCambios();
             return entidad;
+        }
+
+        public void BuscarXUsuario(int idUsuario)
+        {
+
         }
     }
 }

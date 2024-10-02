@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Miguel\\Documents\\UNIVERSIDAD\\Biblioteca\\mst_pruebas\\mst_pruebas.csproj": {}
+    "C:\\Users\\Miguel\\Documents\\UNIVERSIDAD\\DESARROLLO_SOFTWARE\\BibliotecaVS\\mst_pruebas\\mst_pruebas.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Miguel\\Documents\\UNIVERSIDAD\\Biblioteca\\lib_entidades\\lib_entidades.csproj": {
+    "C:\\Users\\Miguel\\Documents\\UNIVERSIDAD\\DESARROLLO_SOFTWARE\\BibliotecaVS\\lib_entidades\\lib_entidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Miguel\\Documents\\UNIVERSIDAD\\Biblioteca\\lib_entidades\\lib_entidades.csproj",
+        "projectUniqueName": "C:\\Users\\Miguel\\Documents\\UNIVERSIDAD\\DESARROLLO_SOFTWARE\\BibliotecaVS\\lib_entidades\\lib_entidades.csproj",
         "projectName": "lib_entidades",
-        "projectPath": "C:\\Users\\Miguel\\Documents\\UNIVERSIDAD\\Biblioteca\\lib_entidades\\lib_entidades.csproj",
+        "projectPath": "C:\\Users\\Miguel\\Documents\\UNIVERSIDAD\\DESARROLLO_SOFTWARE\\BibliotecaVS\\lib_entidades\\lib_entidades.csproj",
         "packagesPath": "C:\\Users\\Miguel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Miguel\\Documents\\UNIVERSIDAD\\Biblioteca\\lib_entidades\\obj\\",
+        "outputPath": "C:\\Users\\Miguel\\Documents\\UNIVERSIDAD\\DESARROLLO_SOFTWARE\\BibliotecaVS\\lib_entidades\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -75,14 +75,14 @@
         }
       }
     },
-    "C:\\Users\\Miguel\\Documents\\UNIVERSIDAD\\Biblioteca\\lib_repositorios\\lib_repositorios.csproj": {
+    "C:\\Users\\Miguel\\Documents\\UNIVERSIDAD\\DESARROLLO_SOFTWARE\\BibliotecaVS\\lib_repositorios\\lib_repositorios.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Miguel\\Documents\\UNIVERSIDAD\\Biblioteca\\lib_repositorios\\lib_repositorios.csproj",
+        "projectUniqueName": "C:\\Users\\Miguel\\Documents\\UNIVERSIDAD\\DESARROLLO_SOFTWARE\\BibliotecaVS\\lib_repositorios\\lib_repositorios.csproj",
         "projectName": "lib_repositorios",
-        "projectPath": "C:\\Users\\Miguel\\Documents\\UNIVERSIDAD\\Biblioteca\\lib_repositorios\\lib_repositorios.csproj",
+        "projectPath": "C:\\Users\\Miguel\\Documents\\UNIVERSIDAD\\DESARROLLO_SOFTWARE\\BibliotecaVS\\lib_repositorios\\lib_repositorios.csproj",
         "packagesPath": "C:\\Users\\Miguel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Miguel\\Documents\\UNIVERSIDAD\\Biblioteca\\lib_repositorios\\obj\\",
+        "outputPath": "C:\\Users\\Miguel\\Documents\\UNIVERSIDAD\\DESARROLLO_SOFTWARE\\BibliotecaVS\\lib_repositorios\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -104,8 +104,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Miguel\\Documents\\UNIVERSIDAD\\Biblioteca\\lib_entidades\\lib_entidades.csproj": {
-                "projectPath": "C:\\Users\\Miguel\\Documents\\UNIVERSIDAD\\Biblioteca\\lib_entidades\\lib_entidades.csproj"
+              "C:\\Users\\Miguel\\Documents\\UNIVERSIDAD\\DESARROLLO_SOFTWARE\\BibliotecaVS\\lib_entidades\\lib_entidades.csproj": {
+                "projectPath": "C:\\Users\\Miguel\\Documents\\UNIVERSIDAD\\DESARROLLO_SOFTWARE\\BibliotecaVS\\lib_entidades\\lib_entidades.csproj"
               }
             }
           }
@@ -144,14 +144,14 @@
         }
       }
     },
-    "C:\\Users\\Miguel\\Documents\\UNIVERSIDAD\\Biblioteca\\mst_pruebas\\mst_pruebas.csproj": {
+    "C:\\Users\\Miguel\\Documents\\UNIVERSIDAD\\DESARROLLO_SOFTWARE\\BibliotecaVS\\mst_pruebas\\mst_pruebas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Miguel\\Documents\\UNIVERSIDAD\\Biblioteca\\mst_pruebas\\mst_pruebas.csproj",
+        "projectUniqueName": "C:\\Users\\Miguel\\Documents\\UNIVERSIDAD\\DESARROLLO_SOFTWARE\\BibliotecaVS\\mst_pruebas\\mst_pruebas.csproj",
         "projectName": "mst_pruebas",
-        "projectPath": "C:\\Users\\Miguel\\Documents\\UNIVERSIDAD\\Biblioteca\\mst_pruebas\\mst_pruebas.csproj",
+        "projectPath": "C:\\Users\\Miguel\\Documents\\UNIVERSIDAD\\DESARROLLO_SOFTWARE\\BibliotecaVS\\mst_pruebas\\mst_pruebas.csproj",
         "packagesPath": "C:\\Users\\Miguel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Miguel\\Documents\\UNIVERSIDAD\\Biblioteca\\mst_pruebas\\obj\\",
+        "outputPath": "C:\\Users\\Miguel\\Documents\\UNIVERSIDAD\\DESARROLLO_SOFTWARE\\BibliotecaVS\\mst_pruebas\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -173,11 +173,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Miguel\\Documents\\UNIVERSIDAD\\Biblioteca\\lib_entidades\\lib_entidades.csproj": {
-                "projectPath": "C:\\Users\\Miguel\\Documents\\UNIVERSIDAD\\Biblioteca\\lib_entidades\\lib_entidades.csproj"
+              "C:\\Users\\Miguel\\Documents\\UNIVERSIDAD\\DESARROLLO_SOFTWARE\\BibliotecaVS\\lib_entidades\\lib_entidades.csproj": {
+                "projectPath": "C:\\Users\\Miguel\\Documents\\UNIVERSIDAD\\DESARROLLO_SOFTWARE\\BibliotecaVS\\lib_entidades\\lib_entidades.csproj"
               },
-              "C:\\Users\\Miguel\\Documents\\UNIVERSIDAD\\Biblioteca\\lib_repositorios\\lib_repositorios.csproj": {
-                "projectPath": "C:\\Users\\Miguel\\Documents\\UNIVERSIDAD\\Biblioteca\\lib_repositorios\\lib_repositorios.csproj"
+              "C:\\Users\\Miguel\\Documents\\UNIVERSIDAD\\DESARROLLO_SOFTWARE\\BibliotecaVS\\lib_repositorios\\lib_repositorios.csproj": {
+                "projectPath": "C:\\Users\\Miguel\\Documents\\UNIVERSIDAD\\DESARROLLO_SOFTWARE\\BibliotecaVS\\lib_repositorios\\lib_repositorios.csproj"
               }
             }
           }

@@ -1,16 +1,19 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-
-
-
-namespace lib_entidades
+﻿namespace lib_entidades
 {
+    using System;
+    using System.Collections.Generic;
+    using System.ComponentModel.DataAnnotations;
+    using System.ComponentModel.DataAnnotations.Schema;
+
     public class Libros
     {
         //Propiedades
-        public int? Id { get; set; }
+        [Key] public int Id { get; set; }
         public string? Nombre { get; set; }
         public string? Autor { get; set; }
-        [NotMapped] public Estados? Estado { get; set; }
+        public int Estado { get; set; }
+        [NotMapped] public Estados? _Estado { get; set; }
+        [NotMapped] public ICollection<Detalles>? Detalles { get; set; }
+
     }
 }
