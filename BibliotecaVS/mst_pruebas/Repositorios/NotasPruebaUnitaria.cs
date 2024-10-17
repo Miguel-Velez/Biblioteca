@@ -1,4 +1,4 @@
-﻿using lib_entidades;
+﻿using lib_entidades.Modelos;
 using lib_repositorios;
 using lib_repositorios.Implementaciones;
 using lib_repositorios.Interfaces;
@@ -14,7 +14,7 @@ namespace mst_pruebas.Repositorios
         public NotasPruebaUnitaria()
         {
             var conexion = new Conexion();
-            conexion.StringConnection = "server=ANXKY\\SQLEXPRESS;database=DB_BIBLIOTECA;Integrated Security=True;TrustServerCertificate=true;";
+            conexion.StringConnection = "server=ANXKY;database=DB_BIBLIOTECA;Integrated Security=True;TrustServerCertificate=true;";
             iRepositorio = new NotasRepositorio(conexion);
         }
 
